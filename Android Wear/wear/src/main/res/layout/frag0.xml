@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434343">
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:layout_gravity="center"
+        app:layout_box="top">
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#cccccc"
+                android:text="" />
+    </ScrollView>
+    <TextView
+        android:id="@+id/header_frag"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:gravity="bottom"
+        android:paddingLeft="45dp"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+        android:background="#717370"
+        android:text=""/>
+
+
+</android.support.wearable.view.BoxInsetLayout>

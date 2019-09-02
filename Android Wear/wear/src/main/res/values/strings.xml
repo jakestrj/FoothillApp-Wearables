@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FHS BS - 2015-2016</string>
+    <string name="hello_round">testRound</string>
+    <string name="hello_square">testSquare</string>
+    <string name="string_regular">P0..................6:45 - 7:40am\nP1..................7:45 - 8:41am\nP2..................8:46 - 9:42am\nBreak..................9:42 - 9:55am\n
+        P3..................10:00 - 11:00am\nP4..................11:05 - 12:01pm\nP5..................12:06 - 1:02pm\nLunch...............1:02 - 1:32pm\nP6...............1:37 - 2:33pm</string>
+</resources>

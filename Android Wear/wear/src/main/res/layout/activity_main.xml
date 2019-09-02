@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434343"
+    android:id="@+id/frameLayout">
+
+    <android.support.wearable.view.DismissOverlayView
+        android:id="@+id/dismiss_overlay"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/frame_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#434343"
+        app:layout_box="left|bottom|right">
+
+        <android.support.wearable.view.WearableListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:dividerHeight="0dp"
+            android:layout_alignParentLeft="true"
+            app:layout_box="left|bottom|right"/>
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:gravity="bottom"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:text="Bell Schedule"/>
+
+        <!--<ToggleButton-->
+            <!--android:id="@+id/toggButton"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:textOn="NotifTESTON"-->
+            <!--android:textOff="NotifTESTOFF"-->
+            <!--android:textSize="10px"-->
+            <!--android:checked="false"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignStart="@+id/header"-->
+            <!--android:layout_alignEnd="@+id/header"-->
+            <!--android:layout_alignBottom="@+id/header" />-->
+
+
+    </RelativeLayout>
+</android.support.wearable.view.BoxInsetLayout>
