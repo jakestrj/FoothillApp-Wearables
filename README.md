@@ -1,2 +1,5 @@
-# FoothillApp-Wearables
- Foothill App for Weable Devices - Android Watch and Pebble
+Foothill App for Android - Wearables (Android Wear & Pebble Watch)
+====================================================================
+
+Jake R. Johnson
+---------------
